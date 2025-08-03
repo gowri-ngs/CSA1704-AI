@@ -4,9 +4,6 @@ person('Bob', date(1985, 12, 3)).
 person('Charlie', date(2000, 7, 15)).
 person('Diana', date(1997, 1, 9)).
 
-% Main entry point
-:- initialization(main).
-
 main :-
     write('--- People Database ---'), nl,
     list_people,
